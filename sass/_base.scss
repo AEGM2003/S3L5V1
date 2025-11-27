@@ -1,0 +1,20 @@
+@use 'mixins' as *;
+body{
+    margin: 0;
+}
+main{
+    margin: 0vw 40vw;
+}
+.button {
+    @include button;
+}
+.button2 {
+    @include button;
+    background-color: gray;
+}
+.button3 {
+    @include button;
+    background-color: none;
+    border: 1px solid;
+    color: unset;
+}
